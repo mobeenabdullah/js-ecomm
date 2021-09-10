@@ -1,1 +1,1 @@
-# js-ecomm
+# JS Ecommerce
