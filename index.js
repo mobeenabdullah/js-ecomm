@@ -30,6 +30,10 @@ app.post('/', async (req, res) => {
         return res.send('Email is already in use');
     }
 
+    if(password !== passwordConfirmation) {
+        return res.send('Passwords must match')
+    }
+
     res.send('Account created');
 });
 
