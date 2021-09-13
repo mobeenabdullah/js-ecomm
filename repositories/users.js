@@ -65,9 +65,11 @@ class UsersRepository {
     }
 
     async getOneBy(filters) {
+
         const records = await this.getAll();
 
-        for(let record of records) {
+        for (let record of records) {
+
             let found = true;
 
             for(let key in filters) {

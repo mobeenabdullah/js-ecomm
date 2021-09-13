@@ -1,17 +1,5 @@
 [
   {
-    "email": "test@test.com",
-    "password": "pass12433",
-    "id": "ac7cbd20"
-  },
-  {
-    "email": "test3@yopmail.com",
-    "password": "pass1323",
-    "id": "83911c3b"
-  },
-  {
-    "email": "test2@test.com",
-    "password": "pass122313",
-    "id": "2e525e0e"
+    "email": "test@test.com"
   }
 ]
