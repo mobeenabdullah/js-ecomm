@@ -12,6 +12,7 @@ app.use(cookieSession({
     keys: ['kjhkhj3h4jhjhjjhjhsdspodsj']
 }));
 app.use(authRouter);
+app.use(productsRouter);
 
 app.listen(3000, () => {
     console.log('Listening...'); 
